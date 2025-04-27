@@ -37,7 +37,3 @@ SELECT * FROM fornecedor;
 SELECT * FROM produtos;
 
 SELECT * FROM produtos WHERE id_fornecedor = 1;
-SELECT * FROM fornecedor WHERE nome LIKE '%Fornecedor A%';
-
-DELETE FROM produtos WHERE id_produto = 5;
-DELETE FROM fornecedor WHERE id_fornecedor = 4;
